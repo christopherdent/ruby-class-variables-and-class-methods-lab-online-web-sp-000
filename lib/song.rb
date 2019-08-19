@@ -25,6 +25,9 @@ attr_accessor :name, :artist, :genre
     @@artists << artist 
   
   end 
+  
+  
+  binding.pry 
 
 def self.count 
   @@count
