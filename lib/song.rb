@@ -53,7 +53,7 @@ def self.genre_count
       @@genre_count[g] = number_of 
   
  end 
-  end 
+   
     
   return @@genre_count
     # To add a key to the person hash:  person["hometown"] = "Massena, NY"
