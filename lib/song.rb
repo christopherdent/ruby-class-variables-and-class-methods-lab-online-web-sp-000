@@ -45,13 +45,15 @@ end
 
 def self.genre_count 
   
+  @@genres.count = number_of
+  
   @@genres.each do |g|
     
     if @@genre_count.any?(g)
-      @@genre_count.count =+ 1 
+      number_of =+ 1 
     else 
     
-      @@genre_count[g] = 1 
+      @@genre_count[g] =number_of 
   
  end 
   end 
