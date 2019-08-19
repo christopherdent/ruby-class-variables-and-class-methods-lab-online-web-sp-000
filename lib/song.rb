@@ -14,7 +14,9 @@ def name
   @@name = name 
 end 
 
+def genre 
   
+end 
   
   
 end 
