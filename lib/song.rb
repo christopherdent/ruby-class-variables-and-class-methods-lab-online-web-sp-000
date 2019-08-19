@@ -17,6 +17,11 @@ end
 def genre 
   
 end 
+
+
+def self.count 
+  @@song_count
+end 
   
   
 end 
