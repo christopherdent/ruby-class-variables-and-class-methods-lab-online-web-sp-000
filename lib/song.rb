@@ -42,6 +42,11 @@ def self.genre_count
   
   @@genres.each do |value|
     
+    binding.pry 
+    @@genre_count["value"] = 
+    
+    # To add a key to the person hash:
+#person["hometown"] = "Massena, NY"
   
   
 end 
