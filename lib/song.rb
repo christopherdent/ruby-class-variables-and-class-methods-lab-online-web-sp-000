@@ -7,6 +7,8 @@ attr_accessor :name, :artist, :genre
 
 @@artists = ""
 
+@@genre = array.new 
+
 def initialize(name, artist, genre)
   
   @@count += 1 
