@@ -29,7 +29,7 @@ attr_accessor :name, :artist, :genre
   end 
   
   
-  binding.pry 
+ 
 
 def self.count 
   @@count
@@ -73,6 +73,10 @@ end
 
 end
 
+lucifer = Song.new("Lucifer", "Jay-Z", "rap" ) 
+problems = Song.new("99 Problems", "Jay-Z", "rap") 
+hitme = Song.new("hit me baby one more time", "Brittany Spears", "pop")
 
 
 
+binding.pry 
