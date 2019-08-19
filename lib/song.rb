@@ -21,7 +21,8 @@ attr_accessor :name, :artist, :genre
   
   end 
 
-
+def name
+  
 
 
 def self.count 
