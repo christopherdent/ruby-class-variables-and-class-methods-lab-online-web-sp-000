@@ -2,7 +2,7 @@ require 'pry'
 
 class Song
   
-attr_accessor :artist, :genre 
+attr_accessor :name, :artist, :genre 
     
 @@count = 0 
 
