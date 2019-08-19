@@ -47,7 +47,7 @@ def self.genre_count
   
   @@genres.each do |g|
     
-    if @@genre_count.any?(value)
+    if @@genre_count.any?(g)
       @@genre_count.count =+ 1 
     else 
     
