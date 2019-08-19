@@ -7,13 +7,13 @@ attr_accessor :name, :artist, :genre
 
 @@artists = ""
 
-@@genre = array.new 
+@@genres = array.new 
 
 def initialize(name, artist, genre)
   
   @@count += 1 
   
-  @@genres
+  @@genres << genre 
   
 end 
 
