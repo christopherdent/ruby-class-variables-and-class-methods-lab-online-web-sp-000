@@ -49,11 +49,7 @@ def self.genre_count
   
   @@genres.each do |g|
     
-    if @@genre_count.any?(g)
-      number_of =+ 1 
-      
-    else 
-    
+
       @@genre_count[g] = number_of 
   
  end 
