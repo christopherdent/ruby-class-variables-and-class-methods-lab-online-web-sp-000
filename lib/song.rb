@@ -16,7 +16,7 @@ attr_accessor :name, :artist, :genre
   
     @@artists << artist 
   
-    name = name 
+   
     
   end 
 
