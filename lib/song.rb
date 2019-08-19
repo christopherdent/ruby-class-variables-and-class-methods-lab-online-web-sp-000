@@ -58,9 +58,9 @@ def self.genre_count
   return @@genre_count
     # To add a key to the person hash:  person["hometown"] = "Massena, NY"
   
- binding.pry  
-end 
 
+end 
+ binding.pry  
 
 
 def self.artist_count
