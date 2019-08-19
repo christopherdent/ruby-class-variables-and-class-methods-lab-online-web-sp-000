@@ -14,6 +14,8 @@ attr_accessor :name, :artist, :genre
 
 @@genre_count = {}
 
+@@artist_count = {}
+
   def initialize(name, artist, genre)
   
     @name = name 
@@ -44,27 +46,22 @@ def self.genres
 end 
 
 def self.genre_count 
-  
-  
-  
   @@genres.each do |g|
-    
-number_of = @@genres.count(g)
-      @@genre_count[g] = number_of 
+    number_of = @@genres.count(g)
+    @@genre_count[g] = number_of 
+  end 
   
- end 
-   
-    
   return @@genre_count
     # To add a key to the person hash:  person["hometown"] = "Massena, NY"
-  
-
 end 
 
 
 
 def self.artist_count
   
+  @@artists.each do |a|
+    number_of = @@artists.count(a)
+    @@artist_count[a] = number_of
 end 
 
 
