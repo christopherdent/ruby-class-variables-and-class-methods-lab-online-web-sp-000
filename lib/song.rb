@@ -1,10 +1,6 @@
 require 'pry'
 
 
-lucifer = Song.new("Lucifer", "Jay-Z", "rap" ) 
-problems = Song.new("99 Problems", "Jay-Z", "rap") 
-hitme = Song.new("hit me baby one more time", "Brittany Spears", "pop")
-
 
 class Song
   
@@ -49,9 +45,7 @@ end
 
 def self.genre_count 
   
-  @@genres.each do |value|
-    
-    
+  @@genres.map do |value|
     
     if @@genre_count.any?(value)
       @@genre_count.count =+ 1 
