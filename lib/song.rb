@@ -52,7 +52,9 @@ def self.genre_count
     else 
     
       @@genre_count[value] = @@genre_count.count
-   end 
+  
+  binding.pry 
+  end 
   end 
     
   return @@genre_count
@@ -60,7 +62,7 @@ def self.genre_count
   
 
 end 
- binding.pry  
+
 
 
 def self.artist_count
