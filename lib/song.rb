@@ -10,7 +10,8 @@ def initialize(name, artist, genre)
   
 end 
 
-def self.name
+def name
+  @name = name 
   
 end 
 
