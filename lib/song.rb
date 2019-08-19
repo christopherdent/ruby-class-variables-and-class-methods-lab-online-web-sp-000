@@ -2,7 +2,7 @@ require 'pry'
 
 class Song
   
-attr_accessor :name, :artist, :genre 
+attr_accessor :artist, :genre 
     
 @@count = 0 
 
@@ -21,7 +21,13 @@ attr_accessor :name, :artist, :genre
   
   end 
 
+def name=(name)
+  @name=name 
+end 
+
 def name
+  @name
+end 
   
 
 
