@@ -45,7 +45,7 @@ end
 
 def self.genre_count 
   
-  @@genres.count = number_of
+  number_of = @@genres.count 
   
   @@genres.each do |g|
     
