@@ -45,13 +45,13 @@ end
 
 def self.genre_count 
   
-  @@genres.map do |value|
+  @@genres.each do |g|
     
     if @@genre_count.any?(value)
       @@genre_count.count =+ 1 
     else 
     
-      @@genre_count[value] = @@genre_count.count
+      @@genre_count[g] = 1 
   
   binding.pry 
   end 
