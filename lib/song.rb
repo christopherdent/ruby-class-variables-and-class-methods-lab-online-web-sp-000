@@ -44,7 +44,7 @@ def self.genre_count
     
     
     
-    if @@genre.count.any?(value)
+    if @@genre_count.any?(value)
       @@genre_count.count =+ 1 
     else 
     
