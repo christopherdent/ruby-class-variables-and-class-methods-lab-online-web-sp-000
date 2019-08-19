@@ -48,7 +48,7 @@ def self.genre_count
       @@genre_count.count =+ 1 
     else 
     
-      @@genre_count[value] = @@genre_count.count(value)
+      @@genre_count[value] = @@genre_count.count
    end 
   end 
     
