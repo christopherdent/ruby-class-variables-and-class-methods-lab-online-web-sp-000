@@ -44,9 +44,10 @@ def self.genre_count
     
     if array.any?(value)
       @@genre_count.count(value) += 1 
+    else 
     
-  @@genre_count[value] = @@genre_count.count(value)
- end 
+      @@genre_count[value] = @@genre_count.count(value)
+   end 
     
     
   return @@genre_count
