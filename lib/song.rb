@@ -53,8 +53,7 @@ def self.genre_count
     
       @@genre_count[g] = 1 
   
-  binding.pry 
-  end 
+ end 
   end 
     
   return @@genre_count
