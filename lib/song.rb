@@ -33,14 +33,14 @@ def self.count
   @@count
 end 
 
-def genres 
-  @@genres 
-end 
+
 
 def self.artists 
   @@artists 
 end 
-
+def genres 
+  @@genres 
+end 
 
 end
 
