@@ -62,6 +62,7 @@ def self.artist_count
   @@artists.each do |a|
     number_of = @@artists.count(a)
     @@artist_count[a] = number_of
+  end 
 end 
 
 
