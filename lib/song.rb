@@ -19,12 +19,8 @@ def initialize(name, artist, genre)
   
 end 
 
-def name
-   
-  
-end 
 
-def genre 
+def self.genres 
   
 end 
 
