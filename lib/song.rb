@@ -7,7 +7,7 @@ attr_accessor :name, :artist, :genre
 
 @@artists = ""
 
-@@genres = array.new 
+@@genres = []
 
 def initialize(name, artist, genre)
   
