@@ -28,7 +28,7 @@ def self.genres
 end 
 
 def self.artists 
-  @@artists = artist 
+  @@artists 
 end 
 
 end 
