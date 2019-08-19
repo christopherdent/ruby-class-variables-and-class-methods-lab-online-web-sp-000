@@ -63,6 +63,7 @@ def self.artist_count
     number_of = @@artists.count(a)
     @@artist_count[a] = number_of
   end 
+  return @@artist_count
 end 
 
 
