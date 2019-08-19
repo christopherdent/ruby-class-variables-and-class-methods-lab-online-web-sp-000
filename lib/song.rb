@@ -42,8 +42,10 @@ def self.genre_count
   
   @@genres.each do |value|
     
+    
+    
     if array.any?(value)
-      @@genre_count.count(value) += 1 
+      @@genre_count.count =+ 1 
     else 
     
       @@genre_count[value] = @@genre_count.count(value)
