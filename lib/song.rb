@@ -1,6 +1,10 @@
 require 'pry'
 
 
+lucifer = Song.new("Lucifer", "Jay-Z", "rap" ) 
+problems = Song.new("99 Problems", "Jay-Z", "rap") 
+hitme = Song.new("hit me baby one more time", "Brittany Spears", "pop")
+
 
 class Song
   
@@ -72,10 +76,6 @@ end
 
 
 end
-
-lucifer = Song.new("Lucifer", "Jay-Z", "rap" ) 
-problems = Song.new("99 Problems", "Jay-Z", "rap") 
-hitme = Song.new("hit me baby one more time", "Brittany Spears", "pop")
 
 
 
