@@ -44,7 +44,7 @@ def self.genre_count
     
     binding.pry 
     
-    @@genre_count["value"] = number
+    @@genre_count["value"] = value.count
  end 
     
     # To add a key to the person hash:
