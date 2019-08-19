@@ -42,7 +42,7 @@ def self.genre_count
   
   @@genres.each do |value|
     
-    binding.pry 
+    
     
     @@genre_count["value"] = @@genre_count.count(value)
  end 
